@@ -288,6 +288,13 @@ footer {
 }
 
 @media (max-width: 500px) {
+    header{
+        height:200px;
+    }
+    .header-logo{
+        height:200px;
+        width: 200px;
+    }
 
     .contenedorproductos {
         grid-template-columns: repeat(1, 1fr);
