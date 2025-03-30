@@ -254,7 +254,7 @@ footer {
 }
 
 @media (max-width: 740px) {
-    .contenedorproductos, .contenedormodelos, .contenedoraccesorios {
+    .contenedorproductos {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -288,6 +288,9 @@ footer {
 }
 
 @media (max-width: 500px) {
+    .contenedorproductos {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .pj {
         flex-direction: column; 
         align-items: center;
